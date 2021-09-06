@@ -1,11 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from '../src/netflix-logo-1.png';
 
 export const Header = () => {
-        return (
+    
+        return (     
        <>
       <div className="navbar">
-       <img src="\netflix-logo-1.png"></img>
+      <span className="netflix">
+      <img src={logo}></img>
+      </span>
        <div className="btn-1">
        <span className="btn">
        <select name="cars" id="cars">

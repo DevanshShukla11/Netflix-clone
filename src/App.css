@@ -38,9 +38,9 @@
 .header{
   background: url('./1_5lyavS59mazOFnb55Z6znQ.png');
   background-repeat: no-repeat;
-  background-size: 1220px 630px;
+  background-size: 1520px 730px;
   width: auto;
-  height: 600px;
+  height: 900px;
   /* filter: grayscale(10%) contrast(100%) brightness(35%); */
 }
 
@@ -127,6 +127,5 @@
     font-size: 15px;
     width: auto;
     height: 50px;
-
   }
 }
