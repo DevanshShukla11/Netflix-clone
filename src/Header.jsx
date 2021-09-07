@@ -33,6 +33,14 @@ export const Header = () => {
         <span className="main-intros"> Ready to watch ?  enter your email <br/>to create or restart your  membership .
         </span>
        </div>
+          
+
+          <div className="email">
+          <input type = "email" placeholder=" Email  address"></input>
+          <Link  className="register" exact to ="/register">Get Started +  </Link>
+          </div>
+        
+
        </div>
        </>
     )

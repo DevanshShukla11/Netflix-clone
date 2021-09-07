@@ -12,6 +12,7 @@ function App() {
     <Switch>
     <Route exact  path="/" component={Header} />
     <Route exact  path="/sign" component={Sign} />
+    <Route exact  path="/register" component={Sign} />
     <Redirect to  = "/" />
     </Switch>
    </>

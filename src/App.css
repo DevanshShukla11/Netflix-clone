@@ -38,7 +38,7 @@
 .header{
   background: url('./1_5lyavS59mazOFnb55Z6znQ.png');
   background-repeat: no-repeat;
-  background-size: 1520px 730px;
+  background-size: 1520px 900px;
   width: auto;
   height: 900px;
   /* filter: grayscale(10%) contrast(100%) brightness(35%); */
@@ -63,7 +63,7 @@
   height: 120px;
   background: black;
   opacity: 0.7;
-  margin-top: 120px;
+  margin-top: 230px;
   font-family: cursive;
   color: white;
   font-weight: 600;
@@ -90,6 +90,121 @@
   font-size: 20px;
   font-family: cursive;
 }
+.email{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.email input{
+  font-family: cursive;
+  color:rgb(78, 76, 76);
+  padding-left: 20px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  width: 400px;
+  height: 50px;
+}
+.email a{
+  color: white;
+  padding-top: 10px;
+  padding-left: 12px;
+  padding-right: 10px;
+  font-family: cursive;
+  font-size: 19px;
+}
+.register {
+  height: 42px;
+  width: auto;
+  text-decoration: none;
+  background-color: red;
+}
+.sign-form{
+  margin-top: 150px;
+  width: 420px;
+  height: 600px;
+  background-color:rgb(14, 11, 11);
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sign-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: cursive;
+  font-size: 40px;
+  margin-right: auto;
+  margin-left: 40px;
+}
+.pswd input {
+  background-color: rgb(39, 38, 38);
+  font-family: cursive;
+  padding-left: 20px;
+   color: white;
+   font-size: 19px;
+   margin-top: 30px;
+   margin-left: 60px;
+   border: none;
+   outline: none;
+   width: 290px;
+   height: 50px;
+}
+.btn-4{
+  color: white;
+  font-size: 19px;
+  font-family: cursive;
+  margin-top: 28px;
+  width: 307px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  margin-left: 60px;
+  background-color: red;
+}
+.label {
+  display: flex;
+  flex-direction: row;
+}
+.label input{
+  height: 20px;
+  width: 20px;
+}
+.me{
+  margin-left: 10px;
+  margin-top: 25px;
+  color: aliceblue;
+  margin-right: 50px;
+  font-size: 18px;
+  font-family: cursive;
+}
+.login{
+  margin-top: 10px;
+  margin-left: 19px;
+  color: white;
+  font-size: 19px;
+  font-family:cursive;
+}
+.fb{
+  margin-top: 20px;
+  margin-left: 60px;
+  transform: scale(1.6);
+  color:rgb(72, 72, 235);
+}
+.logins{
+  margin-left: 49px;
+  color: white;
+  font-size: 16px;
+  font-family:cursive;
+}
+
+
+
+
 
 
 @media (max-width:700px){
@@ -127,5 +242,64 @@
     font-size: 15px;
     width: auto;
     height: 50px;
+  }
+  .email{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .email input{
+    margin-right: 10px;
+    font-size: 15px;
+    width: 290px;
+    height: 42px;
+  }
+  .email a{
+    font-size: 15px;
+    margin-top: 25px;
+    width: 100px;
+    height: 30px;
+  }
+  .sign-form{
+    margin-left: 10px;
+    width: 300px;
+    height: 520px;
+  }
+  .sign-1{
+    font-size: 30px;
+  }
+
+  .pswd input{
+    width: 240px;
+    height: 40px;
+    margin-left: 19px;
+  }
+  .btn-4{
+    width: 250px;
+    height: 40px;
+    margin-left: 24px;
+  }
+  .label input{
+    margin-left: 28px;
+    height: 20px;
+    width: 20px;
+  }
+  .me{
+    padding-top: 6px;
+    margin-left: 10px;
+    font-size: 12.5px;
+  }
+  .fb{
+    transform: scale(1.5);
+    padding-top: 6px;
+    margin-left: 25px;
+  }
+  .login{
+    font-size: 15px;
+  }
+  .logins{
+    font-size: 15px;
+    margin-left: 30px;
   }
 }
